@@ -13,4 +13,8 @@ public class Calculator {
 	public int Sub( int a, int b){
 		return a-b;
 	}
+	
+	public int Mul(int a, int b){
+		return a*b;
+	}
 }
