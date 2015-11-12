@@ -35,7 +35,7 @@ public class CalTest {
 	
 	@Test
 	public void DivTest(){
-		Assert.assertTrue(cal.Div(20, 0)== 2);
+		Assert.assertTrue(cal.Div(20, 10)== 2);
 	}
 
 	@Test
