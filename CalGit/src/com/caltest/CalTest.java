@@ -43,4 +43,8 @@ public class CalTest {
 		Assert.assertTrue(cal.Sub(20, 10) == 10 );
 	}
 	
+	@Test
+	public void MulTest(){
+		Assert.assertTrue(cal.Mul(10, 10) == 100);
+	}
 }
